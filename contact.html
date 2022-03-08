@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Taniti Island: FAQs</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="Taniti, Island, Travel, Vacation, Honeymoon, Tourism" />
+    <meta name="description" content="Travel information and planning for the Taniti Island" />
+    <meta name="author" content="Jacob Peterson" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+    <header>
+        <img src="images/beach1.jpg" alt="Header Photo of Tanitian Island" id="headerImage" />
+    </header>
+    <section class="navMenu">
+        <nav>
+            <a href="index.html"><div class="navButton">The Island</div></a>
+            <a href="entertainment.html"><div class="navButton">Entertainment Options</div></a>
+            <a href="cuisine.html"><div class="navButton">Local Cuisine</div></a>
+            <a href="trip.html"><div class="navButton">Trip Planning</div></a>
+            <a href="contact.html"><div class="navButton" id="currentPage">Contact Us</div></a>
+            <a href="faqs.html"><div class="navButton">FAQs</div></a>
+        </nav>
+    </section>
+    <section>
+        <article>
+            <form class="row">
+                <div class="col-12">
+                    <label for="inputName" class="form-label">Name:</label>
+                    <input type="text" class="form-control" id="inputName" placeholder="John Doe" required>
+                </div>
+                <div class="col-12">
+                    <label for="inputPhoneNumber" class="form-label">Phone Number:</label>
+                    <input type="tel" class="form-control" id="inputPhoneNumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="555-867-5309"
+                           required>
+                </div>
+                <div class="col-12">
+                    <label for="inputEmail" class="form-label">E-mail:</label>
+                    <input type="text" class="form-control" id="inputEmail" pattern="[^ @]*@[^ @]*" placeholder="JohnDoe@yahoo.com" required>
+                </div>
+                <div class="col-12">
+                    <label for="inputTimezone" class="form-label">Timezone:</label>
+                    <input type="text" class="form-control" id="inputTimezone" placeholder="GMT-05:00">
+                </div>
+                <div class="col-12">
+                    <label for="inputTellUs" class="form-label">Tell us how we can help:</label>
+                    <textarea class="form-control2" id="inputHowToHelp" rows="4"></textarea>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </form>
+        </article>
+    </section>
+    <footer>
+        <p>
+            <a href="">Facebook</a>
+            <a href="">Instagram</a>
+            <a href="">Twitter</a>
+            <a> &copy;
+            <script class="right">document.write(new Date().getFullYear())</script>The Taniti Island Tourism Group</a>
+        </p>
+    </footer>
+</body>
+</html>
